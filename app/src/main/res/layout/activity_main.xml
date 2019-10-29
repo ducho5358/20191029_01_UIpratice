@@ -12,10 +12,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="아이디"/>
+
     <EditText
         android:hint="이메일 양식으로 입력해주세요."
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,7 +46,7 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="남성"
+            android:text="남성"/>
 
         <RadioButton
             android:layout_width="wrap_content"
