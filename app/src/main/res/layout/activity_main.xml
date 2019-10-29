@@ -4,43 +4,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="첫번째 텍스트뷰"
-        android:textSize="18sp"
-        android:textColor="#0000FF"/>
-
-    <TextView
+        android:text="아이디"/>
+    <EditText
+        android:hint="이메일 양식으로 입력해주세요."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="두번째 텍스트뷰"
-        android:textSize="16sp"
-        android:textColor="#FF0000"/>
+        android:text="비밀번호"/>
 
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호를 입력해 주세요."
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전화번호"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="전화번호를 입력하세요"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
+        <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="세번째 텍스트뷰"
-            />
+            android:text="남성"
 
-        <TextView
+        <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="네번째 텍스트뷰"
-            />
+            android:text="여성" />
 
-    </LinearLayout>
+    </RadioGroup>
 
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="이용 약관에 동의합니다." />
 
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="확인" />
 
 
 </LinearLayout>
+
+
